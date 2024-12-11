@@ -10,6 +10,10 @@ describe("plusOne Function Tests", () => {
     assert.strictEqual(plusOne(0), 1);
   });
 
+  it("should return 0 when input is -1", () => {
+    assert.strictEqual(plusOne(-1), 0);
+  });
+
   it("should throw an error when input is not a number", () => {
     assert.throws(() => plusOne("string"), {
       name: "TypeError",

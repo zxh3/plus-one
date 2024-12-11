@@ -8,9 +8,7 @@ function plusOne(num) {
     throw new TypeError("Input must be a number");
   }
 
-  if (num >= 0) {
-    return num + 1;
-  }
+  return num + 1;
 }
 
 module.exports = plusOne;
