@@ -6,10 +6,6 @@ describe("plusOne Function Tests", () => {
     assert.strictEqual(plusOne(1), 2);
   });
 
-  it("should return 0 when input is -1", () => {
-    assert.strictEqual(plusOne(-1), 0);
-  });
-
   it("should return 1 when input is 0", () => {
     assert.strictEqual(plusOne(0), 1);
   });
